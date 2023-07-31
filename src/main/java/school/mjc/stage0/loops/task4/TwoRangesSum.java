@@ -16,9 +16,14 @@ public class TwoRangesSum {
                     countedSum += i;
                 }
             }
-            System.out.println("skipped sum is number" + skippedSum);
-            System.out.println("counted sum is number" + countedSum);
+            System.out.println("skipped sum is number " + skippedSum);
+            System.out.println("counted sum is number " + countedSum);
         }
 
+    }
+
+    public static void main(String[] args) {
+        TwoRangesSum a = new TwoRangesSum();
+        a.printSumOfTwoRanges(1,1);
     }
 }
